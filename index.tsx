@@ -853,5 +853,3 @@ const MetricCard = ({ icon: Icon, label, value, change, subtitle, gradient }) =>
     </div>
   </div>
 );
-
-export default AnalyticsHub;
