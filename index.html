@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scrollable Image View</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #000;  /* black background */
+      overflow-y: scroll;       /* enables vertical scrolling */
+      overflow-x: hidden;       /* prevent sideways scroll */
+    }
+
+    img {
+      display: block;
+      width: 100%;             /* make image fit screen width */
+      height: auto;            /* maintain aspect ratio */
+    }
+  </style>
+</head>
+<body>
+  <!-- Replace the src filename below with your image name -->
+  <img src="feature.png" alt="Analytics Dashboard Screenshot">
+</body>
+</html>
